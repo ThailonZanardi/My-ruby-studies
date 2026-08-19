@@ -10,7 +10,7 @@ end
 
 soma_quantidade = produtos.map { |produto| produto.split(":")[1].to_i }.sum
  
-puts "Total de produtos em estoque: #{soma_quantidade}"
+puts "Total de unidades em estoque: #{soma_quantidade}"
 
 estoque_baixo = produtos.select { |produto| produto.split(":")[1].to_i < 6 }
 estoque_baixo.each do |produto|
