@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Fabio", "email": "  FABIO@GMAIL.COM " },
+  { "id": 2, "name": "Maria", "email": "maria@gmail.com" },
+  { "id": 3, "name": "Joao", "email": "joao@" },
+  { "id": 4, "name": "Pedro", "email": "pedrohotmail.com" },
+  { "id": 5, "name": "Ana", "email": "  ana@outlook.com" },
+  { "id": 6, "name": "Maria Copy", "email": "MARIA@GMAIL.COM " },
+  { "id": 7, "name": "Lucas", "email": "lucas@gmail" },
+  { "id": 8, "name": "Empty User", "email": "" },
+  { "id": 9, "name": "Marcos", "email": "marcos@yahoo.com" },
+  { "id": 10, "name": "Invalid User", "email": "@gmail.com" }
+]

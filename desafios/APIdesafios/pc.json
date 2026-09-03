@@ -1,0 +1,11 @@
+{
+    "computador1": [
+    {
+        "processador": "ryzen 5",
+        "memoria": "16 GB",
+        "armazenamento":"480 GB",
+        "video":"integrado",
+        "preco": 3500.00
+    }
+    ]
+}
