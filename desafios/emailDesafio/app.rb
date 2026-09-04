@@ -9,17 +9,22 @@ valid_emails = []
 users.each do |user|
   email = user["email"]
 
-  email.strip
-  email.downcase
+  email = email.strip
+  email = email.downcase
+  email = email.delete("")
+  puts email
+
 
   if email.include?("@")
     username, domain = email.split("@")
+    # puts email
 
     if username.empty? && domain.include?(".")
       valid_emails << email
     end
   end
 end
+
 
 puts "Valid emails:"
 
