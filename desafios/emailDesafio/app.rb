@@ -11,20 +11,18 @@ users.each do |user|
 
   email = email.strip
   email = email.downcase
-  email = email.delete("")
-  puts email
-
 
   if email.include?("@")
     username, domain = email.split("@")
     # puts email
 
-    if username.empty? && domain.include?(".")
+    if username && domain && !username.empty? && domain.include?(".")
       valid_emails << email
     end
   end
 end
 
+valid_emails.uniq!
 
 puts "Valid emails:"
 
