@@ -6,12 +6,7 @@ def load_json(filename)
     # puts file
 end
 
-def pedido(processador)
-    puts processador
-end
-
-
 filename = 'pc.json'
 data = load_json(filename)
-processador = data["computador"][0]["processador"]["preco"]
+processador = data["computador"][0]["processador"]
 puts processador

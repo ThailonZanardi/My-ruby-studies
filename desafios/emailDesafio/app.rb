@@ -9,6 +9,8 @@ valid_emails = []
 users.each do |user|
   email = user["email"]
 
+  next unless email
+
   email = email.strip
   email = email.downcase
 
